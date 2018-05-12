@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+<configuration>
+<!--  standard or dark -->>
+<theme>standard</theme>
+
+<encoding>UFT-8</encoding>
+
+<protocol>https</protocol>
+
+<!-- Title of the document -->>
+<documentTitle>Total Wine Custom Reports</documentTitle>
+
+<!--  Report Name displayed at top-nav -->>
+<reportName>sanity report</reportName>
+
+<!--  Report headline displayed at top nav after report headline -->>
+<reportHeadline>Auto generated for testing</reportHeadline>
+
+<!--  to override global date format -->
+<dateFormat>yyyy-MM-dd</dateFormat>
+
+<!--  custom time format -->
+<timeFormat>HH:mm:ss</timeFormat>
+
+<!--  custom javascript -->
+<scripts>
+console.log("Javascript code")
+</scripts>
+
+
+
+
+</configuration>
+</extentreports>
